@@ -1,0 +1,11 @@
+$TTL 86400
+1.168.192.in-addr.arpa. IN SOA centos1.bkacad.com. root.bkacad.com. (
+20 ;Serial
+3600 ;Refresh
+1800 ;Retry
+604800 ;Expire
+86400 ;Minimum TTL
+)
+1.168.192.in-addr.arpa. IN NS centos1.bkacad.com.
+
+100.1.168.192.in-addr.arpa. IN PTR centos1.bkacad.com.

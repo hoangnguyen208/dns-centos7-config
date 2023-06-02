@@ -1,0 +1,20 @@
+$TTL 86400
+bkacad.com.         IN SOA   centos1.bkacad.com. root.bkacad.com. (
+22 ;Serial
+3600 ;Refresh
+1800 ;Retry
+604800 ;Expire
+86400 ;Minimum TTL
+)
+bkacad.com.         IN NS    centos1.bkacad.com.
+bkacad.com.         IN NS    centos2.bkacad.com.
+
+www.bkacad.com.     IN CNAME centos1.bkacad.com.
+mail.bkacad.com.    IN CNAME centos1.bkacad.com.
+
+bkacad.com.         IN MX 10 centos1.bkacad.com.
+
+centos1.bkacad.com. IN A     192.168.1.100
+centos2.bkacad.com. IN A     192.168.1.101
+centos3.bkacad.com. IN A     192.168.1.102
+windows             IN A     192.168.1.103 

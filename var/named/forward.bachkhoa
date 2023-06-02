@@ -1,0 +1,20 @@
+$TTL 86400
+bachkhoa.com.           IN SOA   centos1.bachkhoa.com. root.bachkhoa.com. (
+22 ;Serial
+3600 ;Refresh
+1800 ;Retry
+604800 ;Expire
+86400 ;Minimum TTL
+)
+bachkhoa.com.           IN NS    centos1.bachkhoa.com.
+bachkhoa.com.           IN NS    centos2.bachkhoa.com.
+
+www.bachkhoa.com.       IN CNAME centos2.bachkhoa.com.
+mail.bachkhoa.com.      IN CNAME centos1.bachkhoa.com.
+
+bachkhoa.com.           IN MX 10 centos1.bachkhoa.com.
+
+centos1.bachkhoa.com.   IN A     192.168.1.100
+centos2.bachkhoa.com.   IN A     192.168.1.101
+centos3.bachkhoa.com.   IN A     192.168.1.102
+windows                 IN A     192.168.1.103
